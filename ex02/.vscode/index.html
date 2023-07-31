@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando pseudo-classes e pseudo-elementos</title>
+    <style>
+
+#main1 > ul{
+    display: none;
+    }
+/*
+    #main1:hover > ul{
+        display: block;
+    }
+
+
+    #menu{
+        display: none;
+    }
+*/
+    </style>
+</head>
+<body>
+    <div id="main1">
+        <button id="botao" type="button">Menu</button>
+        <ul id="menu">
+            <li><a href="">Login</a></li>
+            <li><a href="">Contatos</a></li>
+            <li><a href="">Sobre</a></li>
+        </ul>
+    </div>
+
+
+    <script>
+        const menu = document.getElementById('menu')
+        const botao = document.getElementById('botao')
+
+         function OpenMenu(){
+            menu.style.display = 'block'
+         }   
+
+       botao.addEventListener('click', OpenMenu)
+       
+    </script>
+</body>
+</html>

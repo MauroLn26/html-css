@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+@font-face {
+    font-family: idroid;
+    src: url(fonts/idroid.otf);
+}
+
+
+header{
+    background-image: linear-gradient( rgba(94, 175, 112, 0.905), rgb(8, 120, 8));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.444);
+}
+
+header > h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+ 
+}
+
+header > p {
+    text-align: center;
+    padding: 1em;
+    font-size: 1.2em;
+ 
+}
+
+header > p > span{
+    padding-top: 0.5em;
+}
+
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    padding: 1em 0em 0.5em 0.7em;
+    list-style: none;
+    
+}
+
+nav > ul > li{
+    padding: 8px 5px 8px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav > ul > li:hover {
+    background-color: rgb(8, 53, 8);
+}
+
+/* MAIN DO SITE */
+
+body {
+    background-color: rgba(131, 186, 168, 0.524);
+}
+
+main {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    padding: 3em;
+}
+
+.paragraf{
+    font: arial;
+    font-size: 1.3em;
+    display: inline-block;
+    
+}
+
+#principal > h1{
+    color: rgb(31, 93, 51);
+    font-family: 'idroid', sans-serif;
+    margin: 1em;
+}
+
+.subtitu {
+    color: rgb(31, 93, 51);
+    background-color: rgba(118, 209, 202, 0.249);
+    margin: 1em;
+    font-family: 'idroid', sans-serif;
+}
+
+.cor1 {
+    color: darkgreen;
+    cursor: pointer;
+}
+
+.fotos {
+    text-align: center;
+    margin: auto;
+    margin: 1em;
+}
+
+.videoFrame {
+    margin: 1em;
+    text-align: center;
+    border: 2em solid rgb(6, 75, 6);
+}
+
+
+.caixaFinal {
+    background-color: rgba(137, 207, 207, 0.502);
+    border-radius: 1em;
+    margin: 1em;
+}
+
+.caixaFinal2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.caixaFinal2 > div > ul {
+    list-style: none;
+    font-size: 1.1em;
+    margin: 1em;
+}
+
+.listas::before {
+    content: '\2714 \FE0F';
+    margin-right: 0.3em;
+}
+
+.subtituFinal {
+    background-color: rgba(53, 139, 100, 0.903);
+    color: white;
+    padding: 0.3em;
+    border-radius: 1em 1em 0em 0em ;
+}
+
+.paragraf2 {
+    font-size: 1.2em;
+    padding: 1em;
+    text-indent: 1em;
+}
+
+.paragraf3 {
+    font-size: 1.3em;
+}
+
+footer {
+    background-color: rgb(6, 75, 6);
+    width: 100%;
+    padding: 0.3em;
+    text-align: center;
+    color: white;
+}
+
+.textFinal {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+
+

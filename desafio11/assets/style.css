@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor0: #b68bde43;
+    --cor1: #b496d090;
+    --cor2: #6700c765;
+    --cor3: #443D4A;
+    --cor4: #4D0094 ;
+
+}
+
+body {
+     background-color: var(--cor1);
+}
+
+header {
+    min-height: 6em;
+    min-width: 100%;
+    background-color: var(--cor2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+header > h1 {
+    text-decoration: underline;
+}
+
+.navegar > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navegar > ul > li {
+    margin: 2em;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-itens > li:hover {
+    text-decoration: underline;
+    background-color: var(--cor2);
+    color: white;
+}
+
+main {
+   width: 80%;
+   background-color: var(--cor0);
+   margin: auto;
+   padding: 15px;
+}
+
+.textP {
+    font-size: 1.1em;
+}
+
+.first-div{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-div > p {
+    margin-bottom: 50px;
+}
+
+.first-div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    margin: auto;
+    margin: 30px;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: var(--cor0);
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.botao:hover {
+    color: white;
+    background-color: black;
+}
+
+.first-div > img {
+    width: 40%;
+    margin-left: 40px;
+}
+
+.linha {
+    margin: 100px;
+    border-bottom: 2px solid  var(--cor4) ;
+    box-shadow: 1px 1px 10px black;
+    max-width: 100%;
+}
+
+.secound-div {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.secound-div > p {
+    margin: 30px;
+}
+
+article > aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+aside > img {
+    margin: 30px;
+    width: 40%;
+}
+
+.botoes-fim {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.botao1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: var(--cor4);
+    color: white;
+    border: 1px solid;
+    box-shadow: 1px 1px 5px black;
+}
+
+.botao1:hover {
+    background-color: var(--cor1);
+}
+.linha2 {
+    margin: 10px;
+    border-bottom: 2px solid red;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: var(--cor0);
+    text-align: center;
+   font-size: 1.1em;
+}
+
+
+
+
+
